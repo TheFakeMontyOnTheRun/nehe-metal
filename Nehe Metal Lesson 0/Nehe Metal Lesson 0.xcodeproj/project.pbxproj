@@ -11,7 +11,6 @@
 		F102847922D3CFC500558C43 /* Renderer.m in Sources */ = {isa = PBXBuildFile; fileRef = F102847822D3CFC500558C43 /* Renderer.m */; };
 		F102847C22D3CFC500558C43 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F102847B22D3CFC500558C43 /* GameViewController.m */; };
 		F102847E22D3CFC500558C43 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = F102847D22D3CFC500558C43 /* Shaders.metal */; };
-		F102848122D3CFC600558C43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F102848022D3CFC600558C43 /* Assets.xcassets */; };
 		F102848422D3CFC600558C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F102848222D3CFC600558C43 /* Main.storyboard */; };
 		F102848722D3CFC600558C43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F102848622D3CFC600558C43 /* main.m */; };
 /* End PBXBuildFile section */
@@ -26,7 +25,6 @@
 		F102847B22D3CFC500558C43 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 		F102847D22D3CFC500558C43 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		F102847F22D3CFC500558C43 /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
-		F102848022D3CFC600558C43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F102848322D3CFC600558C43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F102848522D3CFC600558C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F102848622D3CFC600558C43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				F102847B22D3CFC500558C43 /* GameViewController.m */,
 				F102847D22D3CFC500558C43 /* Shaders.metal */,
 				F102847F22D3CFC500558C43 /* ShaderTypes.h */,
-				F102848022D3CFC600558C43 /* Assets.xcassets */,
 				F102848222D3CFC600558C43 /* Main.storyboard */,
 				F102848522D3CFC600558C43 /* Info.plist */,
 				F102848622D3CFC600558C43 /* main.m */,
@@ -137,7 +134,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F102848122D3CFC600558C43 /* Assets.xcassets in Resources */,
 				F102848422D3CFC600558C43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
